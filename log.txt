@@ -1,0 +1,53 @@
+[2018-05-07 05:40:10.075387] DEBUG: myapp.sqltime: Start Query: 
+SELECT "A"."Customer No." AS "A_Customer No.", "A"."Posting Date" AS "A_Posting Date", "A".id AS "A_id", "A".amount AS "A_amount" 
+FROM "A" 
+WHERE "A"."Customer No." = ? AND "A"."Posting Date" = ?
+ LIMIT ? OFFSET ?
+[2018-05-07 05:40:10.075588] DEBUG: myapp.sqltime: Query arguments: ('A-200', '2017-01-25 00:00:00.000000', 1, 0)
+[2018-05-07 05:40:10.075934] DEBUG: myapp.sqltime: Query Complete!
+[2018-05-07 05:40:10.076034] DEBUG: myapp.sqltime: Total Time: 0.000578
+[2018-05-07 05:40:10.077540] DEBUG: myapp.sqltime: Start Query: 
+INSERT INTO "A" ("Customer No.", "Posting Date", amount) VALUES (?, ?, ?)
+[2018-05-07 05:40:10.077634] DEBUG: myapp.sqltime: Query arguments: ('A-200', '2017-01-25 00:00:00.000000', 125)
+[2018-05-07 05:40:10.077845] DEBUG: myapp.sqltime: Query Complete!
+[2018-05-07 05:40:10.077931] DEBUG: myapp.sqltime: Total Time: 0.000303
+[2018-05-07 05:40:10.172098] DEBUG: myapp.sqltime: Start Query: 
+SELECT "A"."Customer No." AS "A_Customer No.", "A"."Posting Date" AS "A_Posting Date", "A".id AS "A_id", "A".amount AS "A_amount" 
+FROM "A" 
+WHERE "A"."Customer No." = ? AND "A"."Posting Date" = ?
+ LIMIT ? OFFSET ?
+[2018-05-07 05:40:10.172235] DEBUG: myapp.sqltime: Query arguments: ('A-100', '2017-01-23 00:00:00.000000', 1, 0)
+[2018-05-07 05:40:10.172554] DEBUG: myapp.sqltime: Query Complete!
+[2018-05-07 05:40:10.172646] DEBUG: myapp.sqltime: Total Time: 0.000471
+[2018-05-07 05:40:10.173960] DEBUG: myapp.sqltime: Start Query: 
+INSERT INTO "A" ("Customer No.", "Posting Date", amount) VALUES (?, ?, ?)
+[2018-05-07 05:40:10.174084] DEBUG: myapp.sqltime: Query arguments: ('A-100', '2017-01-23 00:00:00.000000', 867)
+[2018-05-07 05:40:10.174324] DEBUG: myapp.sqltime: Query Complete!
+[2018-05-07 05:40:10.174449] DEBUG: myapp.sqltime: Total Time: 0.000356
+[2018-05-07 05:40:10.175239] DEBUG: myapp.sqltime: Start Query: 
+SELECT "A"."Customer No." AS "A_Customer No.", "A"."Posting Date" AS "A_Posting Date", "A".id AS "A_id", "A".amount AS "A_amount" 
+FROM "A" 
+WHERE "A"."Customer No." = ? AND "A"."Posting Date" = ?
+ LIMIT ? OFFSET ?
+[2018-05-07 05:40:10.175335] DEBUG: myapp.sqltime: Query arguments: ('A-300', '2017-01-26 00:00:00.000000', 1, 0)
+[2018-05-07 05:40:10.175446] DEBUG: myapp.sqltime: Query Complete!
+[2018-05-07 05:40:10.175529] DEBUG: myapp.sqltime: Total Time: 0.000210
+[2018-05-07 05:40:10.176109] DEBUG: myapp.sqltime: Start Query: 
+INSERT INTO "A" ("Customer No.", "Posting Date", amount) VALUES (?, ?, ?)
+[2018-05-07 05:40:10.176204] DEBUG: myapp.sqltime: Query arguments: ('A-300', '2017-01-26 00:00:00.000000', 325)
+[2018-05-07 05:40:10.176310] DEBUG: myapp.sqltime: Query Complete!
+[2018-05-07 05:40:10.176400] DEBUG: myapp.sqltime: Total Time: 0.000199
+[2018-05-07 05:40:10.245288] DEBUG: myapp.sqltime: Amount <= 0 !!!
+[2018-05-07 05:40:10.246774] DEBUG: myapp.sqltime: Start Query: 
+SELECT "A"."Customer No." AS "A_Customer No.", "A"."Posting Date" AS "A_Posting Date", "A".id AS "A_id", "A".amount AS "A_amount" 
+FROM "A" 
+WHERE "A"."Customer No." = ? AND "A"."Posting Date" = ?
+ LIMIT ? OFFSET ?
+[2018-05-07 05:40:10.246897] DEBUG: myapp.sqltime: Query arguments: ('B-100', '2017-01-13 00:00:00.000000', 1, 0)
+[2018-05-07 05:40:10.247153] DEBUG: myapp.sqltime: Query Complete!
+[2018-05-07 05:40:10.247240] DEBUG: myapp.sqltime: Total Time: 0.000388
+[2018-05-07 05:40:10.247929] DEBUG: myapp.sqltime: Start Query: 
+INSERT INTO "A" ("Customer No.", "Posting Date", amount) VALUES (?, ?, ?)
+[2018-05-07 05:40:10.248027] DEBUG: myapp.sqltime: Query arguments: ('B-100', '2017-01-13 00:00:00.000000', 667)
+[2018-05-07 05:40:10.248224] DEBUG: myapp.sqltime: Query Complete!
+[2018-05-07 05:40:10.248310] DEBUG: myapp.sqltime: Total Time: 0.000297
